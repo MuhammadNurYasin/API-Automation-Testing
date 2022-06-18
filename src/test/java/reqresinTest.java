@@ -1,13 +1,12 @@
-package starter;
-
-
 import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        plugin = {"pretty"},
-        features = "classpath:features/postcodes"
+        plugin ={"pretty"},
+        features = {"src/test/resources/features/api/reqresin"}
+
 )
-public class CucumberTestSuite {}
+
+public class reqresinTest {} //nama file ...Test
